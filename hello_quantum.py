@@ -2,7 +2,7 @@ from qiskit import QuantumCircuit, ClassicalRegister, QuantumRegister
 from qiskit import IBMQ, BasicAer, execute
 from qiskit.providers.ibmq import least_busy
 
-try: 
+try:
     IBMQ.load_accounts()
 except:
     print("There's no connection with the API")
